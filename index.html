@@ -385,6 +385,7 @@ em{font-style:italic;color:var(--gold-dark);}
 <style>
 main a{color:var(--gold-dark);text-decoration:none;font-weight:600;border-bottom:1px solid var(--gold-shimmer);padding-bottom:1px;letter-spacing:.01em;transition:var(--transition);}
 main a:hover{color:var(--gold);border-bottom-color:var(--gold);}
+.price-note{margin-top:.6rem;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:.86rem;color:var(--text-muted);}
 </style>
 </head>
 <body>
@@ -470,7 +471,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><a href="#s8">8 · Edad y Aprendizaje</a></li>
           <li><a href="#s9">9 · Day Care y Defensa</a></li>
           <li><a href="#s10">10 · Opciones de Entrenamiento</a></li>
-          <li><a href="#s11">11 · Recomendación</a></li>
+          <li><a href="#s11">11 · Comparando las Opciones</a></li>
+          <li><a href="#s12">12 · Recomendación</a></li>
         </ul>
       </div>
     </div>
@@ -764,6 +766,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <p>El Group Course tampoco tiene que elegirse exclusivamente como parte de la segunda opción. Puede realizarse posteriormente aunque la familia elija Deep Basic Obedience o Stage 1.</p>
     <p>De hecho, puede ser una buena continuación después o durante algún entrenamiento, porque permite seguir practicando comandos y manejo alrededor de diferentes personas y perros. La principal consideración será nuevamente la disponibilidad, ya que las fechas del curso grupal son menos flexibles que las sesiones privadas.</p>
+    <p class="price-note">Group Course: <span class="p-cur">ƒ</span>245 · 8 clases de 45 min c/u.</p>
 
     <div class="subsection">
       <h3 class="sub-title">Posible entrenamiento de defensa</h3>
@@ -774,6 +777,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="ct">⚠ Una posibilidad, no una garantía</div>
       <p>Su tendencia actual a alertar y defender el terreno hace que valga la pena evaluar esta posibilidad posteriormente, pero la decisión dependerá de cómo responda durante las etapas anteriores. Si su progreso es suficientemente bueno y demuestra las características necesarias, este podría convertirse en el siguiente entrenamiento para la familia si desean continuar en esa dirección.</p>
     </div>
+    <p class="price-note">El entrenamiento de defensa se cobra por sesión adicional a la obediencia base, entre <span class="p-cur">ƒ</span>85 y <span class="p-cur">ƒ</span>125 por sesión, en aproximadamente 5 a 10 sesiones según el nivel de obediencia alcanzado.</p>
     <p><em>Más información: <a href="https://curadogtraining.com/pages/defense" target="_blank" rel="noopener">curadogtraining.com/pages/defense</a></em></p>
   </section>
 
@@ -791,81 +795,119 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <p>Después de evaluar lo observado durante el intake y los objetivos que Laura planteó inicialmente, presentamos las siguientes opciones.</p>
 
-    <div class="training-grid">
-      <div class="t-card">
-        <div class="t-tier">Opción Básica</div>
-        <h3>Stage 1</h3>
-        <div class="t-sub">"Bases de manejo para trabajar por cuenta propia"</div>
-        <p>Aquí nos concentraríamos en enseñar a Laura y su familia cómo manejar adecuadamente a Santo, cómo establecer las bases necesarias y qué hacer frente a las situaciones que actualmente generan dificultades. También podemos introducirlos al trabajo de socialización para que sepan cómo continuar posteriormente.</p>
-        <div class="t-footer">Sesiones privadas</div>
+    <div class="pricing-grid">
+
+      <div class="p-card">
+        <div class="p-icon">🐾</div>
+        <div class="p-name">Opción 1 · Stage 1</div>
+        <div class="p-sub">"Bases de manejo para trabajar por cuenta propia"</div>
+        <div class="p-amount"><span class="p-cur">ƒ</span>695</div>
+        <ul class="p-details">
+          <li>5 a 7 sesiones privadas · 45-90 min c/u</li>
+          <li>Bases de manejo y comunicación con Santo</li>
+          <li>Introducción al trabajo de socialización</li>
+        </ul>
+        <p class="p-note"><em>La mayor parte del trabajo posterior de socialización y exposición queda en manos de la familia.</em></p>
       </div>
 
-      <div class="t-card">
-        <div class="t-tier">Alternativa Más Económica</div>
-        <h3>Group Course + Stage 1</h3>
-        <div class="t-sub">"Bases privadas combinadas con trabajo grupal"</div>
-        <p>Stage 1 permite trabajar directamente con Laura y Santo para enseñar las bases de manejo necesarias. El Group Course añade posteriormente trabajo alrededor de otras personas y perros, además de practicar comandos en diferentes ubicaciones.</p>
-        <div class="t-footer">Stage 1 privado + Group Course</div>
+      <div class="p-card">
+        <div class="p-icon">🌿</div>
+        <div class="p-name">Opción 2 · Group Course + Stage 1</div>
+        <div class="p-sub">"Bases privadas combinadas con trabajo grupal"</div>
+        <div class="p-amount"><span class="p-cur">ƒ</span>940</div>
+        <ul class="p-details">
+          <li>Stage 1 privado · <span class="p-cur">ƒ</span>695</li>
+          <li>Group Course · 8 clases de 45 min · <span class="p-cur">ƒ</span>245</li>
+          <li>Práctica de comandos alrededor de otros perros y personas</li>
+        </ul>
+        <p class="p-note"><em>Menor atención individual que en un programa privado completo; el Group Course tiene horarios menos flexibles.</em></p>
       </div>
 
-      <div class="t-card">
-        <div class="t-tier">Programa Completo</div>
-        <h3>Deep Basic Obedience</h3>
-        <div class="t-sub">"Manejo, obediencia, socialización y aplicación práctica"</div>
-        <p>Esta opción permite trabajar conjuntamente manejo, obediencia, socialización y aplicación práctica en diferentes ambientes.</p>
-        <div class="t-footer">Modalidad interna · 2 a 3 semanas + sesiones privadas</div>
+      <div class="p-card p-rec">
+        <div class="p-badge">RECOMENDADO</div>
+        <div class="p-icon">🏆</div>
+        <div class="p-name">Opción 3 · Deep Basic Obedience (Board &amp; Train)</div>
+        <div class="p-sub">"nuestra principal recomendación para Santo"</div>
+        <div class="p-amount"><span class="p-cur">ƒ</span>1,250</div>
+        <ul class="p-details">
+          <li>Modalidad interna · 2 a 3 semanas</li>
+          <li>3 a 5 sesiones privadas al regresar a casa</li>
+          <li>Manejo, obediencia, socialización y aplicación práctica</li>
+        </ul>
+        <p class="p-note"><em>También disponible de forma privada (10 a 12 sesiones de 45-90 min) por <span class="p-cur">ƒ</span>1,350.</em></p>
       </div>
-    </div>
 
-    <div class="subsection">
-      <h3 class="sub-title">1. Stage 1 · Opción básica</h3>
     </div>
-    <p>Aquí nos concentraríamos en enseñar a Laura y su familia cómo manejar adecuadamente a Santo, cómo establecer las bases necesarias y qué hacer frente a las situaciones que actualmente generan dificultades. También podemos introducirlos al trabajo de socialización para que sepan cómo continuar posteriormente.</p>
-    <div class="callout callout-gold">
-      <div class="ct">⚠ Depende de la familia</div>
-      <p>La diferencia es que la mayor parte del trabajo posterior de socialización y exposición quedaría en manos de la familia. Nosotros enseñamos cómo hacerlo y damos la base inicial, pero serán los dueños quienes tendrán que buscar las oportunidades, realizar las exposiciones y repetir el proceso hasta conseguir mayor adaptación.</p>
-    </div>
-    <p>Es la alternativa que recomendaría cuando la familia quiere economizar y se siente suficientemente cómoda trabajando posteriormente por su cuenta, especialmente si ya cuenta con experiencia previa manejando y educando perros.</p>
-    <p>Para Santo sigue siendo una opción válida, pero entre las tres es la que más depende de la capacidad y consistencia de los dueños.</p>
-    <p><em>Más información: <a href="https://curadogtraining.com/pages/basic-obedience" target="_blank" rel="noopener">curadogtraining.com/pages/basic-obedience</a></em></p>
-
-    <div class="subsection">
-      <h3 class="sub-title">2. Group Course + Stage 1</h3>
-    </div>
-    <p>La segunda opción combina Stage 1 de manera privada con nuestro Group Course.</p>
-    <p>Stage 1 permite trabajar directamente con Laura y Santo para enseñar las bases de manejo necesarias. El Group Course añade posteriormente trabajo alrededor de otras personas y perros, además de practicar comandos en diferentes ubicaciones.</p>
-    <p>Esta combinación puede acercarse a varios de los objetivos de Deep Basic Obedience por un costo menor. El propio ambiente grupal también ofrece oportunidades de exposición porque Santo estará trabajando alrededor de perros, personas y situaciones diferentes en un entorno organizado.</p>
-    <p>La principal diferencia es la atención individual. Durante un curso grupal el entrenador trabaja simultáneamente con varias familias, por lo que no podemos dedicar toda la sesión exclusivamente a Santo. Laura tendrá una participación mayor en manejarlo y aplicar las indicaciones mientras avanzamos.</p>
-    <p>No considero que esto haga que la opción sea mala para Santo. Por lo que vimos durante el intake, existe una posibilidad razonable de que pueda desenvolverse bien dentro de este formato, aunque primero tendremos que comprobar cómo responde realmente alrededor de otros perros.</p>
-    <div class="callout callout-danger">
-      <div class="ct">🚫 Menos flexibilidad de horarios</div>
-      <p>También hay que considerar que el Group Course tiene menos flexibilidad de horarios, porque las sesiones dependen de las fechas y horarios establecidos para todo el grupo.</p>
-    </div>
-    <p>Recomendaría esta combinación principalmente cuando se quiera mantener una parte importante del trabajo de socialización y obediencia reduciendo el costo frente al programa privado completo.</p>
-    <p><em>Más información: <a href="https://curadogtraining.com/pages/group-course" target="_blank" rel="noopener">curadogtraining.com/pages/group-course</a> · <a href="https://curadogtraining.com/pages/basic-obedience" target="_blank" rel="noopener">curadogtraining.com/pages/basic-obedience</a></em></p>
-
-    <div class="subsection">
-      <h3 class="sub-title">3. Deep Basic Obedience</h3>
-    </div>
-    <p>Esta opción se acerca más a lo que la familia está buscando porque permite trabajar conjuntamente manejo, obediencia, socialización y aplicación práctica en diferentes ambientes.</p>
-    <p>Comenzaríamos desarrollando las bases necesarias para que Laura y su familia sepan cómo manejar a Santo, educarlo y ayudarlo cuando aparezcan situaciones que le generen inseguridad o demasiado estímulo. Posteriormente incorporaríamos los comandos correspondientes y avanzaríamos hacia situaciones reales donde todo lo aprendido tenga que utilizarse fuera de un ambiente sencillo.</p>
-    <p>La parte avanzada permite precisamente trabajar en diferentes lugares y situaciones que puedan representar una dificultad para Santo. La intención es que la familia termine el proceso sabiendo qué hacer cuando aparezca una situación complicada, en lugar de depender permanentemente de la presencia del entrenador.</p>
-    <div class="callout callout-info">
-      <div class="ct">🛈 Modalidad interna</div>
-      <p>Para Santo, nuestra mayor recomendación dentro de esta opción sería realizar el entrenamiento de forma interna, hospedándose con nosotros aproximadamente 2 a 3 semanas.</p>
-      <p>Esto nos permitiría trabajar con él de manera mucho más frecuente e intensa, incorporando el entrenamiento dentro de su rutina diaria y exponiéndolo progresivamente a las situaciones necesarias. Una vez que regrese a casa, la familia recibirá las sesiones privadas correspondientes incluidas dentro del entrenamiento para aprender a continuar correctamente con lo que Santo ya haya trabajado.</p>
-      <p>Esta modalidad permite que nosotros asumamos inicialmente las partes más complicadas del proceso y que después la familia continúe principalmente mediante práctica y repetición.</p>
-      <p>Dependiendo de cómo responda Santo, después de terminar el programa todavía será necesario continuar practicando determinadas situaciones. La diferencia es que para ese momento la familia ya tendrá las herramientas y Santo habrá realizado el trabajo inicial (y más difícil) con nosotros.</p>
-    </div>
-    <p><em>Más información: <a href="https://curadogtraining.com/pages/basic-obedience" target="_blank" rel="noopener">curadogtraining.com/pages/basic-obedience</a></em></p>
   </section>
 
   <div class="section-divider section"><div class="div-orn">✦ ✦ ✦</div></div>
 
-  <!-- S11 · Recomendación -->
+  <!-- S11 · Comparando las Opciones -->
   <section class="section" id="s11">
     <div class="section-header">
       <div class="section-number">11</div>
+      <div class="section-title-group">
+        <div class="section-overline">Comparando los Caminos</div>
+        <h2 class="section-title">¿Qué Opción le Conviene Más a Santo?</h2>
+        <div class="section-title-underline"></div>
+      </div>
+    </div>
+    <p>De las tres opciones, recomendaríamos Deep Basic Obedience para Santo.</p>
+    <div class="ladder">
+      <div class="rung">
+        <div class="rcirc" style="background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text);">1</div>
+        <div class="rcont">
+          <div class="rtitle">Stage 1 · Opción básica</div>
+          <div class="rdesc">Aquí nos concentraríamos en enseñar a Laura y su familia cómo manejar adecuadamente a Santo, cómo establecer las bases necesarias y qué hacer frente a las situaciones que actualmente generan dificultades. También podemos introducirlos al trabajo de socialización para que sepan cómo continuar posteriormente.<br><br>La diferencia es que la mayor parte del trabajo posterior de socialización y exposición quedaría en manos de la familia. Nosotros enseñamos cómo hacerlo y damos la base inicial, pero serán los dueños quienes tendrán que buscar las oportunidades, realizar las exposiciones y repetir el proceso hasta conseguir mayor adaptación.<br><br>Es la alternativa que recomendaríamos cuando la familia quiere economizar y se siente suficientemente cómoda trabajando posteriormente por su cuenta, especialmente si ya cuenta con experiencia previa manejando y educando perros. Para Santo sigue siendo una opción válida, pero entre las tres es la que más depende de la capacidad y consistencia de los dueños.<br><br><strong>Privado:</strong> 5 a 7 sesiones de 45 a 90 minutos. Precio: <span class="p-cur">ƒ</span>695.</div>
+          <span class="rtag" style="background:var(--warning-bg);color:var(--warning-text);border:1px solid var(--warning-border);">Económica</span>
+        </div>
+      </div>
+      <div class="rung">
+        <div class="rcirc" style="background:var(--gold-pale);border-color:var(--gold);color:var(--gold-dark);">2</div>
+        <div class="rcont">
+          <div class="rtitle">Group Course + Stage 1</div>
+          <div class="rdesc">La segunda opción combina Stage 1 de manera privada con nuestro Group Course. Stage 1 permite trabajar directamente con Laura y Santo para enseñar las bases de manejo necesarias. El Group Course añade posteriormente trabajo alrededor de otras personas y perros, además de practicar comandos en diferentes ubicaciones.<br><br>Esta combinación puede acercarse a varios de los objetivos de Deep Basic Obedience por un costo menor. El propio ambiente grupal también ofrece oportunidades de exposición porque Santo estará trabajando alrededor de perros, personas y situaciones diferentes en un entorno organizado.<br><br>La principal diferencia es la atención individual. Durante un curso grupal el entrenador trabaja simultáneamente con varias familias, por lo que no podemos dedicar toda la sesión exclusivamente a Santo. Laura tendrá una participación mayor en manejarlo y aplicar las indicaciones mientras avanzamos. No considero que esto haga que la opción sea mala para Santo, pero primero tendremos que comprobar cómo responde realmente alrededor de otros perros.<br><br>También hay que considerar que el Group Course tiene menos flexibilidad de horarios, porque las sesiones dependen de las fechas y horarios establecidos para todo el grupo.<br><br>Recomendaríamos esta combinación principalmente cuando se quiera mantener una parte importante del trabajo de socialización y obediencia reduciendo el costo frente al programa privado completo.<br><br><strong>Stage 1 privado:</strong> <span class="p-cur">ƒ</span>695. <strong>Group Course:</strong> 8 clases de 45 min, <span class="p-cur">ƒ</span>245. <strong>Total combinado:</strong> <span class="p-cur">ƒ</span>940.</div>
+          <span class="rtag" style="background:var(--gold-pale);color:var(--gold-dark);border:1px solid var(--gold);">Intermedia</span>
+        </div>
+      </div>
+      <div class="rung">
+        <div class="rcirc" style="background:var(--info-bg);border-color:var(--info-border);color:var(--info-text);">3</div>
+        <div class="rcont">
+          <div class="rtitle">Deep Basic Obedience</div>
+          <div class="rdesc">Esta opción se acerca más a lo que la familia está buscando porque permite trabajar conjuntamente manejo, obediencia, socialización y aplicación práctica en diferentes ambientes.<br><br>Comenzaríamos desarrollando las bases necesarias para que Laura y su familia sepan cómo manejar a Santo, educarlo y ayudarlo cuando aparezcan situaciones que le generen inseguridad o demasiado estímulo. Posteriormente incorporaríamos los comandos correspondientes y avanzaríamos hacia situaciones reales donde todo lo aprendido tenga que utilizarse fuera de un ambiente sencillo. La parte avanzada permite precisamente trabajar en diferentes lugares y situaciones que puedan representar una dificultad para Santo.<br><br>Para Santo, nuestra mayor recomendación dentro de esta opción sería realizar el entrenamiento de forma interna, hospedándose con nosotros aproximadamente 2 a 3 semanas. Esto nos permitiría trabajar con él de manera mucho más frecuente e intensa, incorporando el entrenamiento dentro de su rutina diaria y exponiéndolo progresivamente a las situaciones necesarias. Una vez que regrese a casa, la familia recibirá las sesiones privadas correspondientes incluidas dentro del entrenamiento para aprender a continuar correctamente con lo que Santo ya haya trabajado.<br><br>Esta modalidad permite que nosotros asumamos inicialmente las partes más complicadas del proceso y que después la familia continúe principalmente mediante práctica y repetición.<br><br><strong>Privado:</strong> 10 a 12 sesiones de 45 a 90 minutos. Precio: <span class="p-cur">ƒ</span>1,350.<br><strong>Board &amp; Train:</strong> 2 a 3 semanas + 3 a 5 sesiones privadas al regresar. Precio: <span class="p-cur">ƒ</span>1,250.</div>
+          <span class="rtag" style="background:var(--info-bg);color:var(--info-text);border:1px solid var(--info-border);">Recomendado</span>
+        </div>
+      </div>
+    </div>
+    <div class="depth-block" id="depthBlock">
+      <p class="db-title">Alcance Relativo de Cada Opción</p>
+      <div class="db-arrow">Manejo básico → trabajo grupal → aplicación práctica</div>
+      <div class="db-comparison">
+        <div class="db-row">
+          <span class="db-lbl">Stage 1</span>
+          <div class="db-track"><div class="db-b" data-w="40" style="background:linear-gradient(90deg,#c9a84c,#e8c970);"></div></div>
+          <span class="db-pct">Manejo Básico</span>
+        </div>
+        <div class="db-row">
+          <span class="db-lbl">Group Course + Stage 1</span>
+          <div class="db-track"><div class="db-b" data-w="70" style="background:linear-gradient(90deg,#B8943F,#E8D5A3);"></div></div>
+          <span class="db-pct">+ Socialización Grupal</span>
+        </div>
+        <div class="db-row">
+          <span class="db-lbl">Deep Basic Obedience</span>
+          <div class="db-track"><div class="db-b" data-w="100" style="background:linear-gradient(90deg,#2d7a50,#1e5a3a);"></div></div>
+          <span class="db-pct">+ Aplicación Práctica</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider section"><div class="div-orn">✦ ✦ ✦</div></div>
+
+  <!-- S12 · Recomendación -->
+  <section class="section" id="s12">
+    <div class="section-header">
+      <div class="section-number">12</div>
       <div class="section-title-group">
         <div class="section-overline">Nuestra Recomendación</div>
         <h2 class="section-title">Recomendación Final</h2>
@@ -878,9 +920,13 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="rec-tag">"Deep Basic Obedience es nuestra principal recomendación para Santo"</div>
       <p>Esta opción se acerca más a lo que la familia está buscando porque permite trabajar conjuntamente manejo, obediencia, socialización y aplicación práctica en diferentes ambientes, con modalidad interna recomendada de 2 a 3 semanas seguida de sesiones privadas en casa.</p>
       <p>El objetivo es que, al terminar el proceso, la familia sepa qué hacer cuando aparezca una situación complicada, en lugar de depender permanentemente de la presencia del entrenador.</p>
+      <div class="rec-price">
+        <small>Board &amp; Train · 2-3 semanas</small>
+        <span class="v"><span class="p-cur">ƒ</span>1,250</span>
+      </div>
     </div>
     <div class="callout callout-gold" style="margin-top:2rem;">
-      <div class="ct">⚠ Alternativa si se busca economizar</div>
+      <div class="ct">⚠ Si se elige la opción mínima: Stage 1</div>
       <p>La alternativa más básica sería realizar únicamente Stage 1, donde la mayor parte del trabajo posterior de socialización y exposición quedaría en manos de la familia. Es la opción que recomendaríamos cuando la familia quiere economizar y se siente suficientemente cómoda trabajando posteriormente por su cuenta, especialmente si ya cuenta con experiencia previa manejando y educando perros. Para Santo sigue siendo una opción válida, pero entre las tres es la que más depende de la capacidad y consistencia de los dueños.</p>
     </div>
   </section>
